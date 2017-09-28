@@ -135,7 +135,7 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 ### Eğitmen Hakkında
 
-* ##Gökhan ÖZTÜRK, 17 Haziran 1990 İstanbul  doğumlu.
+* Gökhan ÖZTÜRK, 17 Haziran 1990 İstanbul  doğumlu.
 
 * Lise          -> Nuri Cıngıllıoğlu "Süper" Lisesinde okudu. (2004~2008 | Derece = 3.84/5)
 * Lisans        -> Maltepe Üniversitesi, Mühendislik ve Doğa Bilimleri Fakultesi, Yazılım Mühendisliği okudu. (2009-2013 | Derece 3.21/4)
