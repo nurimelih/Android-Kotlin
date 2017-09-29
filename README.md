@@ -1,4 +1,4 @@
-# <img src="assets/logo.svg" alt="Kodluyoruz.ORG" class="logo"/> 
+# <img src="bg_home.jpeg" alt="Kodluyoruz.ORG" class="logo"/> 
 
 ## Kotlin ile Android Uygulama Geliştirme Programı (Syllabus - İzlence)
 
@@ -65,7 +65,7 @@ Eğer GitHub Desktop kullanıyorsanız, aşağıdaki dokümanlar giriş seviyesi
 1. Bu bekleme sırasında arkadaşlarınızın yaptığı Pull Request'leri inceleyin ve daha iyi olabilmeleri için "Code Review" yapıp yorumda bulunun.
 1. Kapsamlı bir hata gördüğünüzde düzeltilmesi için arkadaşınızın forkladığı proje üzerinde [issue] açın.
 
-#### ReadMe Günncelemesi
+#### ReadMe Güncellemesi
 
 Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe dosyasına bu Ev Ödevi veya Proje sonrasında hangi yetenekleri kazandığınızı not ediniz.
 
@@ -103,7 +103,7 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 ### Kotlin
 
-* Neden Kotlin'e Cevap Bulacağımız; "Kotlin vs Java" Sunumu
+* "Neden Kotlin?" Sorusuna Cevap Bulacağımız; "Kotlin vs Java" Sunumu
 * IntelliJ IDEA Kurulumu ve Tanıtımı
 * main() fonksiyonu ve ilk uygulama: "Merhaba Bebek!"
 * Run ve Debug Kavramları
@@ -228,8 +228,9 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 ### Eğitmen Hakkında
 
-* Gökhan ÖZTÜRK, 17 Haziran 1990 İstanbul  doğumlu.
+<img src="profile.png" alt="Gökhan ÖZtürk" class="logo"/> 
 
+* Gökhan ÖZTÜRK, 17 Haziran 1990 İstanbul  doğumlu.
 * Lise          -> Nuri Cıngıllıoğlu "Süper" Lisesi (2004~2008 | Derece = 3.84/5)
 * Lisans        -> Maltepe Üniversitesi, Mühendislik ve Doğa Bilimleri Fakultesi, Yazılım Mühendisliği (2009-2013 | Derece 3.21/4)
 * Yüksek Lisans -> Maltepe Üniversitesi, Fen Bilimleri Enstitüsü, Bilgisayar Mühendisliği Tezli Yüksek Lisansı (2015~Devam Ediyor)
