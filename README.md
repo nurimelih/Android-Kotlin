@@ -1,6 +1,6 @@
 # <img src="assets/logo.svg" alt="Kodluyoruz.ORG" class="logo"/> 
 
-## Kotlin ile Android Uygulama Geliştirme Programı (Syllabus)
+## Kotlin ile Android Uygulama Geliştirme Programı (Syllabus - İzlence)
 
 * **Dersler   :** Git ve GitHub | Kotlin | Androd-201 | Android-301 | Android-401 |
 * **Eğitmen   :** Gökhan ÖZTÜRK, [GokhanOzturk@AndroidEdu.IO](mailto:GokhanOzturk@AndroidEdu.IO)
@@ -27,8 +27,8 @@ Bir ön şart değil; ancak Java ve/veya temel Android Uygulama Geliştirme konu
 Git ve GitHub ile başlayıp, Kotlin söz dizimine (syntax) göz atacağız. 
 Neden Java yerine Kotlin'e geçiş yapıyoruz ve Kotlin bize neler sunuyor, bunları öğreneceksiniz. 
 Android Studio'nun kurulumundan itibaren ciddi bir Android Uygulama Geliştirme eğitimi alacaksınız. 
-Bu eğitim sırasında öğretilen yapıların profesyonel iş hayatında nerelerde kullanılacağını işin en iyi pratiklerini (best practices), yanlış yaptığımızda karşılacağımız sorunları ve bunları aşmanın yollarını öğreneceksiniz. 
-Sadece yeni bir şeyler üretmeyeceksiniz, bozuk yapıları nasıl "debug" yaparak çözebileceğinizi de öğreneceksiniz.
+Bu eğitim sırasında öğretilen yapıların profesyonel iş hayatında nerelerde kullanılacağını, işin en iyi pratiklerini (best practices), yanlış yaptığımızda karşılacağımız sorunları ve bunları aşmanın yollarını öğreneceksiniz. 
+Sadece yeni bir şeyler üretmeyecek, bozuk yapıları nasıl "debug" yaparak çözebileceğinizi de öğreneceksiniz.
 Jr. olsanız bile saygı görmenizi sağlayacak işin yazılı olmayan tüm kurallarını da bileceksiniz.
 
 Eğitim temelde 4 ana başlıkta olacak. Bunlar şöyle ki;
@@ -39,9 +39,9 @@ Eğitim temelde 4 ana başlıkta olacak. Bunlar şöyle ki;
     * Android 201
     * Android 301
     * Android 401
-* İş Bulma, İşe Yerleşme ve iş Hayatında Başarılı olabilme İpuçları
+* İş Bulma, İşe Yerleşme ve İş Hayatında Başarılı olabilme İpuçları
 
-Bu başlıklar hakkında daha detaylı bilgiyi #Eğitim Detayı kısmında bulabilirsiniz.
+Bu başlıklar hakkında daha detaylı bilgiyi, aşağıda, #Eğitim Detayı kısmında bulabilirsiniz.
 
 ## Ev Ödevi ve Projeler
 
@@ -71,13 +71,94 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 ## Eğitim Detayı
 
+      Önemli Not: Sınıfın hızına bağlı olarak, Eğitim Detayındaki tüm bilgiler anlatılmayabilir 
+      veya fazlası anlatılabilir. Bazı derslerin programdaki önceliği ve/veya yeri değiştirilebilir. 
+      Sınıfın yavaş ilerlemesi durumunda, direkt işe yerleşmenizde birincil dereceden etkili olmayan 
+      konular atlanabilecek ve araştırma ödevi olarak verilebilecektir.
+
 ### Git ve GitHub
 
-* [Güncellenecek](http://googlecom)
+* Git ve GitHub nedir? Farkları nelerdir? Niye kullanmalıyız?
+* GitBash kurulumu yapmak.
+* Repo Nedir? Localde ve Uzak sunucuda nasıl Repo oluşturabiliriz?
+* Command Line (CMD, CML, Terminal) üzerinde temel Git Komutları
+    * Add (Ekleme) ve Staging Area (Ara Bölge)
+    * Status (Durum) ve Diff Alma (Fark Alma)
+    * Commit (Bitirmek-Teslim Etmek) İşlemi
+    * Commit Mesajı Best Practices (En İyi Pratikleri)
+    * Push (Commitleri, Repoya göndermek) & Pull (Commitleri, Repodan Çekmek)
+    * Fecth (Projeyi Çekmek, Sync İşlemi)
+    * Branch (Dallanma) Nedir? Future - Branch Modelleri
+    * Merge (Birleştirme) ve Branchler Arası Diff Alma
+    * Cherry Pick (Commit Taşıma)
+    * Clone (Kopyalama) ve Fork(Çatallandırma) İşlemleri
+    * Pull Request (PR - Değişiklik Gönderim İsteği) Kavramı 
+* GitHub Üzerinde Organizasyon Hesapları
+* Issue Mekanizması
+* Pull Request (PR) İnceleme ve Code Review İşlemleri
+* Pull Request İşlemleri - File Changed (Değişen Dosyalar), Comment (Yorum Yapma), Approve (Onaylama), Request Changes(Değişiklik Talebi)
+* Repo Ayarları
+* GitHub ile Entegre Çalışan Araçlar (Slack-OttoTree)
+* GitHub'ın Çok Bilinmeyen Yönleri
 
 ### Kotlin
 
-* [Güncellenecek](http://googlecom)
+* Neden Kotlin'e Cevap Bulacağımız; "Kotlin vs Java" Sunumu
+* IntelliJ IDEA Kurulumu ve Tanıtımı
+* main() fonksiyonu ve ilk uygulama: "Merhaba Bebek!"
+* Run ve Debug Kavramları
+* Comment (Yorum Atma) Formatları
+
+* Reference (Referans)
+    * Keywords and Operators (Anahtar Kelimeler)
+    * İsimlendirmeler
+
+* Basics (Temeller)
+    * Basic Types (Temel Tipler)
+    * Packages (Paketler) and Imports (Eklemeler)
+    * Control Flow (Kontrol Yapıları) & Loops (Döngüler)
+    * Returns (Geri Dönüşler) and Jumps (Atlamalar)
+
+* Classes & Objects (Sınıflar ve Objeler)
+    * Classes and Inheritance (Sınıflar ve Miras Alma)
+    * Properties and Fields (Özellikler ve Sınıf Elemanları)
+    * Interfaces (Arayüzler)
+    * Visibility Modifiers (Görünürlük Değiştiriciler)
+    * Extensions (Uzantı Yapılar)
+    * Data Classes (Veri Sınıfları)
+    * Sealed Classes (Kilitli Sınıflar)
+    * Generics (Eş Değer) - Burada anlatılmayacak. Android 401 içerisinde bahsedilecek
+    * Nested and Inner Classes (İç içe Sınıflar ve İç Sınıflar)
+    * Enum Classes (Sayım? Ne kadar doğru bir çeviri?)
+    * Object Expressions and Declarations (Nesne İfadeleri ve Bildirimleri)
+    * Class Delegation (Sınıf Yetkilendirme)
+    * Delegated Properties (Özellik Yetkilendirme)
+    
+ * Functions & Lambdas (Temeller)
+    * Functions (Fonksiyonlar)
+    * Higher-Order Functions and Lambdas (Üst Düzey Fonksiyonlar ve Lambda?)
+    * Inline Functions (Satıriçi Fonksiyonlar)
+    * Coroutines (Eş-Yordamlar) - Burada anlatılmayacak. Android 401 içerisinde bahsedilecek
+    
+ * Other (Diğerleri)
+    * Destructuring Declarations (Çoklu Değişken Oluşturma)
+    * Collections: List, Set, Map (Koleksiyonlar) - Burada anlatılmayacak. Android 401 içerisinde bahsedilecek
+    * Ranges (Değer Aralıkları)
+    * Type Checks and Casts: 'is' and 'as' (Tip Kontrolleri ve Dönüştürücüler)
+    * This Expression (This İfadesi)
+    * Equality (Eşitlik)
+    * Operator overloading (Operatör Aşırı Yükleme)
+    * Null Safety (Güvenli Null Kullanımı)
+    * Exceptions (İstisna Yönetimi)
+    * Annotations (Dip Notasyon) - Ders Programına Dahil Değil. Sadece kavram olarak bahsedilecek
+    * Reflection (Yansıtma)
+    * Type-Safe Builders (Tip Güvenli Yapılar)
+    * Type aliases (Mevcut Tiplerin Yerine Geçecek Tipler Sağlama)
+    
+* Java Interop (Java ile Birlikte Çalışma)
+    * Calling Java code from Kotlin (Kotlin üzerinde Java yazma)
+    * Calling Kotlin from Java (Java üzerinde Kotlin yazma)
+    * Java Projesini Kotlin Projesine Çevirme
 
 ### Android 201
 
@@ -100,7 +181,7 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 ## Kaynaklar
 
-### Başlangıç Seviyesi Materyalleri
+### Başlangıç Seviyesinde Materyaller
 
 * [Güncellenecek](http://googlecom)
 
@@ -108,11 +189,15 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 * [Güncellenecek](http://googlecom)
 
-### Takip Etmeniz Gereken Slack Kanalları
+### Her Android Geliştiricinin Bilmesi Gereken Kütüphaneler
 
 * [Güncellenecek](http://googlecom)
 
 ### Haftaklık veya Günlük RSS Kayıtları
+
+* [Güncellenecek](http://googlecom)
+
+### Slack Kanalları
 
 * [Güncellenecek](http://googlecom)
 
@@ -124,7 +209,15 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 * [Güncellenecek](http://googlecom)
 
-### Mutlaka Okumanızı Önerdiğim Okuma Listesi
+### Mutlaka Okunması Gereken Kaynaklar
+
+* [Güncellenecek](http://googlecom)
+
+### Bloglar
+
+* [Güncellenecek](http://googlecom)
+
+### Kişiler
 
 * [Güncellenecek](http://googlecom)
 
@@ -137,17 +230,17 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 * Gökhan ÖZTÜRK, 17 Haziran 1990 İstanbul  doğumlu.
 
-* Lise          -> Nuri Cıngıllıoğlu "Süper" Lisesinde okudu. (2004~2008 | Derece = 3.84/5)
-* Lisans        -> Maltepe Üniversitesi, Mühendislik ve Doğa Bilimleri Fakultesi, Yazılım Mühendisliği okudu. (2009-2013 | Derece 3.21/4)
+* Lise          -> Nuri Cıngıllıoğlu "Süper" Lisesi (2004~2008 | Derece = 3.84/5)
+* Lisans        -> Maltepe Üniversitesi, Mühendislik ve Doğa Bilimleri Fakultesi, Yazılım Mühendisliği (2009-2013 | Derece 3.21/4)
 * Yüksek Lisans -> Maltepe Üniversitesi, Fen Bilimleri Enstitüsü, Bilgisayar Mühendisliği Tezli Yüksek Lisansı (2015~Devam Ediyor)
 
 * Profesyonel iş hayatıma 2013 yılı Haziran ayında, "Nomad Commerce" isimli "FinTech" üzerine yoğunlaşan ve dış kaynak (outsource) modelini benimseyen bir firma ile başladım. 
-* İlk iş günümden itibaren toplamda 3 yıl 9 ay boyunca "Akbank" bünyesinde "Akbank Direkt Mobil" projesinin "Android" kanadında yer aldım.
-* 2015 yılında ["Akbank Direkt Mobil"](https://play.google.com/store/apps/details?id=com.akbank.android.apps.akbank_direkt) projesinin dış kaynağa aktarılan (outsource edilen) bölümünde "Android ve iOS'dan sorumlu Takım Liderliği" görevine getirildim. 
+* İlk iş günümden itibaren toplamda 3 yıl 9 ay boyunca "Akbank" bünyesinde "["Akbank Direkt Mobil"](https://play.google.com/store/apps/details?id=com.akbank.android.apps.akbank_direkt) projesinin "Android" kanadında yer aldım.
+* 2015 yılında Akbank Direkt Mobil projesinin dış kaynağa aktarılan (outsource edilen) bölümünde "Android ve iOS'dan sorumlu Takım Liderliği" görevine getirildim. 
 * 2 yıl kadar bu sorumluluğu taşıdıktan sonra Mart 2017 tarihi itibariyle Nomad Commerce'den, dolayısıyla "Akbank Direkt Mobil" projesinden ayrılarak, kadrolu çalışan olarak (insource) "Demirören Medya Grubuna" giriş yaptım. 
 * Demirören Medya Grubunda, "Yeni İş Geliştirme" biriminde, "Native Mobil Uygulama Geliştirme Uzmanı" olarak ["Sonra Ne Oldu?"](https://play.google.com/store/apps/details?id=com.demirorenmedya.sonraneoldu) isimli "Habercilik" uygulaması üzerinde çalışmaktayım.
 
-Bu kariyer akışıyla beraber, Bir Sosyal Sorumluluk Projesi olan ["Kodluyoruz"](http://kodluyoruz.org/) derneğinin "Kurucu, Yönetim Kurulu Üyesiyim" aynı zamanda -şuan için- Eğitim Koordinatörlüğü görevini götürmekteyim. Tüm bunların yanında bu syllabus'ı da yazma sebebimiz olan Android Uygulama Geliştirme Eğitimini vermekteyim. Kodluyoruz ile ilgili detayları;
+Bu kariyer akışıyla beraber, Bir Sosyal Sorumluluk Projesi olan ["Kodluyoruz"](http://kodluyoruz.org/) derneğinin "Kurucu, Yönetim Kurulu Üyesiyim" aynı zamanda -şuan için- Eğitim Koordinatörlüğü görevini götürmekteyim. Tüm bunların yanında bu syllabus'ı da yazma sebebimiz olan Android Uygulama Geliştirme Eğitimini vermekteyim. Kodluyoruz ile ilgili detaylara;
 
 * http://Kodluyoruz.Org/
 * http://KodluyoruzAkademi.Com/
