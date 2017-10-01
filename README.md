@@ -39,7 +39,7 @@ Eğitim temelde 4 ana başlıkta olacak. Bunlar şöyle ki;
     * Android 201
     * Android 301
     * Android 401
-* İş Bulma, İşe Yerleşme ve İş Hayatında Başarılı olabilme İpuçları
+* İş Bulma, İşe Yerleşme ve İş Hayatında Başarılı Olabilme İpuçları
 
 Bu başlıklar hakkında daha detaylı bilgiyi, aşağıda, #Eğitim Detayı kısmında bulabilirsiniz.
 
@@ -74,7 +74,7 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
       Önemli Not: Sınıfın hızına bağlı olarak, Eğitim Detayındaki tüm bilgiler anlatılmayabilir 
       veya fazlası anlatılabilir. Bazı derslerin programdaki önceliği ve/veya yeri değiştirilebilir. 
       Sınıfın yavaş ilerlemesi durumunda, direkt işe yerleşmenizde birincil dereceden etkili olmayan 
-      konular atlanabilecek ve araştırma ödevi olarak verilebilecektir.
+      konular atlanabilecek ve/veya araştırma ödevi olarak verilebilecektir.
 
 ### Git ve GitHub
 
@@ -82,17 +82,17 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 * GitBash Kurulumu.
 * Repo Nedir? Yerelde (Local) ve Uzak Sunucuda (Remote Server) Nasıl Repo Oluşturabiliriz?
 * Command Line (CMD, CML, Terminal) Üzerinde Temel Git Komutları
-    * Add (Ekleme) ve Staging Area (Ara Bölge)
-    * Status (Durum) ve Diff Alma (Fark Alma)
-    * Commit (Bitirmek-Teslim Etmek) İşlemi
-    * Commit Mesajı Best Practices (En İyi Pratikleri)
-    * Push (Commitleri, Repoya göndermek) & Pull (Commitleri, Repodan Çekmek)
-    * Fecth (Projeyi Çekmek, Sync İşlemi)
-    * Branch (Dallanma) Nedir? Future - Branch Modelleri
-    * Merge (Birleştirme) ve Branchler Arası Diff Alma
-    * Cherry Pick (Commit Taşıma)
-    * Clone (Kopyalama) ve Fork(Çatallandırma) İşlemleri
-    * Pull Request (PR - Değişiklik Gönderim İsteği) Kavramı 
+    * Ekleme (Add) ve Ara Bölge (Staging Area)
+    * Durum (Status) ve Fark Alma (Diff Alma)
+    * Bitirmek-Teslim Etmek (Commit) İşlemi
+    * Commit Mesajı En İyi Pratikleri (Best Practices)
+    * Commitleri Repoya Göndermek (Push) & Commitleri Repodan Çekmek (Pull)
+    * Projeyi Çekmek, Sync İşlemi (Fecth)
+    * Dallanma (Branch) Nedir? Future - Branch Modelleri
+    * Birleştirme (Merge) ve Branchler Arası Diff Alma
+    * Commit Taşıma (Cherry Pick)
+    * Kopyalama (Clone) ve Çatallandırma (Fork) İşlemleri
+    * Değişiklik Gönderim İsteği (PR - Pull Request) Kavramı 
 * .gitIgnore
 * GitHub Üzerinde Organizasyon Hesapları
 * Issue Mekanizması
