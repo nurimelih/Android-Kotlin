@@ -215,13 +215,13 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 * Android View Hierarchy
 * Grafik Arayüzü Bileşenleri (Graphical User Interface - GUI)
    * Layouts
-      * ConstraitLayout
-      * GridLayout
       * FrameLayout
       * RelativeLayout
       * LinearLayout
-      * TableLayout
+      * ConstraitLayout
       * fragment
+      * GridLayout
+      * TableLayout
    * Widgets
       * TextView
       * Button
@@ -305,7 +305,7 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
    * Volley
       * Json Object Request
       * Json Array Request
-      * Json String Request
+      * String Request
       * Param & Header Paslama
       * Öncelik (Priority) Belirleme
       * ParseNetwork
@@ -437,4 +437,4 @@ Bu kariyer akışıyla beraber, Bir Sosyal Sorumluluk Projesi olan ["Kodluyoruz"
 adreslerinden ulaşabilirsiniz...
 
 ## Kendimizi geliştirmemiz için lütfen Geri Bildirim (Feedback) vermekten çekinmeyiniz..
-[Info@Kodluyoruz.ORG](Info@Kodluyoruz.ORG)
+[Info@Kodluyoruz.ORG](mailto:Info@Kodluyoruz.ORG)
