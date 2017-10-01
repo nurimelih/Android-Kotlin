@@ -78,10 +78,10 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 ### Git ve GitHub
 
-* Git ve GitHub nedir? Farkları nelerdir? Niye kullanmalıyız?
-* GitBash kurulumu yapmak.
-* Repo Nedir? Localde ve Uzak sunucuda nasıl Repo oluşturabiliriz?
-* Command Line (CMD, CML, Terminal) üzerinde temel Git Komutları
+* Git ve GitHub Nedir? Farkları Nelerdir? Niye Kullanmalıyız?
+* GitBash Kurulumu.
+* Repo Nedir? Yerelde (Local) ve Uzak Sunucuda (Remote Server) Nasıl Repo Oluşturabiliriz?
+* Command Line (CMD, CML, Terminal) Üzerinde Temel Git Komutları
     * Add (Ekleme) ve Staging Area (Ara Bölge)
     * Status (Durum) ve Diff Alma (Fark Alma)
     * Commit (Bitirmek-Teslim Etmek) İşlemi
@@ -93,10 +93,11 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
     * Cherry Pick (Commit Taşıma)
     * Clone (Kopyalama) ve Fork(Çatallandırma) İşlemleri
     * Pull Request (PR - Değişiklik Gönderim İsteği) Kavramı 
+* .gitIgnore
 * GitHub Üzerinde Organizasyon Hesapları
 * Issue Mekanizması
 * Pull Request (PR) İnceleme ve Code Review İşlemleri
-* Pull Request İşlemleri - File Changed (Değişen Dosyalar), Comment (Yorum Yapma), Approve (Onaylama), Request Changes(Değişiklik Talebi)
+* Pull Request İşlemleri - Değişen Dosyalar (File Changed), Yorum Yapma (Comment), Onaylama (Approve), Değişiklik Talebi (Request Changes)
 * Repo Ayarları
 * GitHub ile Entegre Çalışan Araçlar (Slack-OttoTree)
 * GitHub'ın Çok Bilinmeyen Yönleri
@@ -105,74 +106,260 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 * "Neden Kotlin?" Sorusuna Cevap Bulacağımız; "Kotlin vs Java" Sunumu
 * IntelliJ IDEA Kurulumu ve Tanıtımı
-* main() fonksiyonu ve ilk uygulama: "Merhaba Bebek!"
+* main() Fonksiyonu ve İlk Uygulama: "Merhaba Bebek!"
 * Run ve Debug Kavramları
-* Comment (Yorum Atma) Formatları
-
-* Reference (Referans)
-    * Keywords and Operators (Anahtar Kelimeler)
+* Yorum Atma (Comment) Formatları
+* Referans (Reference)
+    * Anahtar Kelimeler (Keywords and Operators)
     * İsimlendirmeler
 
-* Basics (Temeller)
-    * Basic Types (Temel Tipler)
-    * Packages (Paketler) and Imports (Eklemeler)
-    * Control Flow (Kontrol Yapıları) & Loops (Döngüler)
-    * Returns (Geri Dönüşler) and Jumps (Atlamalar)
+* Temeller (Basics)
+    * Temel Tipler (Basic Types)
+    * Paketler (Packages) ve Eklemeler (Imports)
+    * Kontrol Yapıları (Control Flow) & Döngüler (Loops)
+    * Geri Dönüşler (Return) ve Atlamalar (Jumps)
 
-* Classes & Objects (Sınıflar ve Objeler)
-    * Classes and Inheritance (Sınıflar ve Miras Alma)
-    * Properties and Fields (Özellikler ve Sınıf Elemanları)
-    * Interfaces (Arayüzler)
-    * Visibility Modifiers (Görünürlük Değiştiriciler)
-    * Extensions (Uzantı Yapılar)
-    * Data Classes (Veri Sınıfları)
-    * Sealed Classes (Kilitli Sınıflar)
-    * Generics (Eş Değer) - Burada anlatılmayacak. Android 401 içerisinde bahsedilecek
-    * Nested and Inner Classes (İç içe Sınıflar ve İç Sınıflar)
+* Sınıflar ve Objeler (Classes & Objects)
+    * Sınıflar ve Miras Alma (Classes and Inheritance)
+    * Özellikler ve Sınıf Elemanları (Properties and Fields)
+    * Arayüzler (Interfaces)
+    * Görünürlük Değiştiriciler (Visibility Modifiers)
+    * Uzantı Yapılar (Extensions)
+    * Veri Sınıfları (Data Classes)
+    * Kilitli Sınıflar (Sealed Classes)
+    * Eş Değer (Generics) - (401 kurunda daha detaylı bahsedilecek)
+    * İç içe Sınıflar ve İç Sınıflar (Nested and Inner Classes)
     * Enum Classes (Sayım? Ne kadar doğru bir çeviri?)
-    * Object Expressions and Declarations (Nesne İfadeleri ve Bildirimleri)
-    * Class Delegation (Sınıf Yetkilendirme)
-    * Delegated Properties (Özellik Yetkilendirme)
+    * Nesne İfadeleri ve Bildirimleri (Object Expressions and Declarations)
+    * Sınıf Yetkilendirme (Class Delegation)
+    * Özellik Yetkilendirme (Delegated Properties)
     
- * Functions & Lambdas (Temeller)
-    * Functions (Fonksiyonlar)
-    * Higher-Order Functions and Lambdas (Üst Düzey Fonksiyonlar ve Lambda?)
-    * Inline Functions (Satıriçi Fonksiyonlar)
-    * Coroutines (Eş-Yordamlar) - Burada anlatılmayacak. Android 401 içerisinde bahsedilecek
+ * Fonksiyonlar ve Lamdalar (Functions & Lambdas)
+    * Fonksiyonlar (Functions)
+    * Üst Düzey Fonksiyonlar ve Lambda? (Higher-Order Functions and Lambdas)
+    * Satıriçi Fonksiyonlar (Inline Functions)
+    * Eş-Yordamlar (Coroutines) - (401 kurunda daha detaylı bahsedilecek)
     
- * Other (Diğerleri)
-    * Destructuring Declarations (Çoklu Değişken Oluşturma)
-    * Collections: List, Set, Map (Koleksiyonlar) - Burada anlatılmayacak. Android 401 içerisinde bahsedilecek
-    * Ranges (Değer Aralıkları)
-    * Type Checks and Casts: 'is' and 'as' (Tip Kontrolleri ve Dönüştürücüler)
-    * This Expression (This İfadesi)
-    * Equality (Eşitlik)
-    * Operator overloading (Operatör Aşırı Yükleme)
-    * Null Safety (Güvenli Null Kullanımı)
-    * Exceptions (İstisna Yönetimi)
-    * Annotations (Dip Notasyon) - Ders Programına Dahil Değil. Sadece kavram olarak bahsedilecek
-    * Reflection (Yansıtma)
-    * Type-Safe Builders (Tip Güvenli Yapılar)
-    * Type aliases (Mevcut Tiplerin Yerine Geçecek Tipler Sağlama)
+ * Diğerleri (Other)
+    * Çoklu Değişken Oluşturma (Destructuring Declarations)
+    * Koleksiyonlar (Collections: List, Set, Map) - (401 kurunda daha detaylı bahsedilecek)
+    * Değer Aralıkları (Ranges)
+    * Tip Kontrolleri ve Dönüştürücüler (Type Checks and Casts: 'is' and 'as')
+    * This İfadesi (This Expression)
+    * Eşitlik (Equality)
+    * Operatör Aşırı Yükleme (Operator overloading)
+    * Güvenli Null Kullanımı (Null Safety)
+    * İstisna Yönetimi (Exceptions)
+    * Dip Notasyon (Annotations) - Ders Programına Dahil Değil. Sadece kavram olarak bahsedilecek
+    * Yansıtma (Reflection) - (401 kurunda daha detaylı bahsedilecek)
+    * Tip Güvenli Yapılar (Type-Safe Builders)
+    * Mevcut Tiplerin Yerine Geçecek Tipler Sağlama (Type aliases)
     
-* Java Interop (Java ile Birlikte Çalışma)
-    * Calling Java code from Kotlin (Kotlin üzerinde Java yazma)
-    * Calling Kotlin from Java (Java üzerinde Kotlin yazma)
+* Java ile Birlikte Çalışma (Java Interop)
+    * Kotlin Üzerinde Java Yazma (Calling Java code from Kotlin)
+    * Java Üzerinde Kotlin Yazma (Calling Kotlin from Java)
     * Java Projesini Kotlin Projesine Çevirme
 
 ### Android 201
 
-* [Güncellenecek](http://googlecom)
-
+* Android Cihazlar ve İşletim Sistemi Üzerine Genel Bilgiler
+* Android Studio Kurulumu ve Gerekenler
+    * JDK (Java Development Kit) Java Geliştirme Kiti
+    * Android SDK (Software Development Kit) Android Yazılım Geliştirme Kiti
+* İlk Uygulama "Selam Bebek !"
+* Android Studio & Android Projesi Bileşenlerinin Tanıtımı
+    * XML formatı & manifest.xml
+    * src dosyaları
+    * Android Resource (res- kaynak) Dosyaları
+      * drawable
+      * layout
+      * mipmap
+      * values ( attrs - style - dimen - string - color )
+      * raw
+      * assest
+    * Gradle Yapısı (401 kurunda daha detaylı bahsedilecek)
+    * Proguard (401 kurunda daha detaylı bahsedilecek)
+    * Android Monitör & Logcat
+    * TODO
+    * Terminal
+    * Version Control
+    * Menu Çubuğu ve Menu Seçenekleri
+* Sanal Cihaz (Emulator) Oluşturma veya Android Cihazların "Emulator" Olarak Kullanımı
+* Log Sınıfı
+* Activity Sınıfı
+    * Android Layout Yapısı & Android Bileşenlerini (Component) Java Classlarına Bağlama
+    * Activity Yaşam Döngüsü (Activity Life Cycle)
+    * Intent Kavramı ve Çeşitleri & Activityler Arası Geçiş
+    * Activityler Arası Veri Taşıma İşlemleri
+      * Intent
+      * Bundle
+      * Singleton Pattern
+      * Interface
+      * Shared Preference (301 kurunda daha detaylı bahsedilecek)
+      * EventBus
+      * Serialization & Deserialization
+      * Parcellable
+* Fragment Sınıfı
+    * Fragment Yaşam Döngüsü (Fragment Life Cycle)
+    * Fragmentların Activity'lere Eklenmesi
+      * Layout Üzerinden Fragment Ekleme
+      * Çalışma Zamanında Fragment Ekleme (Programmatically)
+      * Fragment Ekleme İşlemlerinin Performans Yaşam Döngüsü Farklılıkları
+      * replace() ve backstack() İşlemleri
+    * Activity-Fragment & Fragment-Activity & Fragment-Fragment Arası Veri Taşıma
+      * Arguments
+      * Public Activity Methodları (Düşük Memory Sızıntısı - Memory Leak!)
+* Activity - Fragment Arasındaki Temel Farklar. Ne Zaman Hangisi Kullanılmalı?
+* Toast
+* AlertDialog
+* Android View Hierarchy
+* Grafik Arayüzü Bileşenleri (Graphical User Interface - GUI)
+   * Layouts
+      * ConstraitLayout
+      * GridLayout
+      * FrameLayout
+      * RelativeLayout
+      * LinearLayout
+      * TableLayout
+      * fragment
+   * Widgets
+      * TextView
+      * Button
+      * EditText
+      * ToggleButton
+      * CheckBox
+      * RadioButton
+      * Switch & ToggleButton
+      * Spinner
+   * Images
+      * ImageView
+      * ImageButton
+      * VideoView
+   * Containers
+      * RadioGroup
+      * ScrollView
+      * WebView
+      * ListView & Adapter
+   * AppCompat
+      * CardView
+      * RecyclerView & Adapter & ViewHolder Pattern
+      * Toolbar & Menu
+   * Google
+      * MapView (Harita-Konum İşlemleri)
+      * AdView (Reklam Ekleme)
+      * YoutubePlayerView - YoutubeAPI
+   * Advanced
+      * include
+      * requestFocus
+      * merge
+      * TabLayout
+      * ViewPager
+      * PullToRefresh
+      * Pagination
+      * NavigationDrawer
+      * ProgressBar
+      * Floating Action Button
+      * Floating EditText
+      * UI Katmanı Yazımı
+* Android Bileşenlerinin Ortak Özellikleri (Properties) ve Olayları (Events)
+* SubComponent - CustomComponent & Base Class Mantığı ve Kullanım Sebepleri
+* HTML Kodlarıyla Çalışma
+* Zaman ve Tarih (Date-Time) İşlemleri
+* Uygulamayı Bekletmek (Sleep)
+* Timer & CountDownTimer
+* Threadler
+* Projeye Ses ve Titreşim Ekleme
+* Module Oluşturma
+* Üçüncü Parti Kütüphanelerin Projeye Eklenmesi (3rd Party Libraries)
+* UI Yerleşim Grafiği ve Layout Performans Grafiği
+* İşlemci ve Ram Monitör İşlemleri
+* İsimlendirme Standartları ve Temiz Kod Prensipleri
+* SOLID Prensipleri
+* Özel Dosya Şablonları (Custom File Templates)
+   
 ### Android 301
 
-* [Güncellenecek](http://googlecom)
+* Shared Preference
+* Temel SQL İşlemleri & Belki Room Framework
+* Android İzinlerdeki Değişiklikler (API M (6.0) Öncesi ve Sonrası)
+* Rehbere Erişim
+* JailBreak & Super User Yetkisi Almış & Root'lanmış Cihazların Tespiti
+* Enumaration (Enum)
+* Interface ve Abstract Yapılar
+* Android Bilidirimleri Alma ve Atma (Notification)
+* Paylaşma Özelliği
+* Çoklu Dil Desteği Yapısı
+* Crash Ekranlarının Düzenlenmesi
+* Animasyonlar
+* Web Servisler ile Çalışma
+   * Request - Response Mantığı
+   * Json & XML Formatı
+   * Request Methodları
+   * SOAP ve RESTful Servisler
+   * PostMan & JsonParserOnline.Com & MyJson.Com
+   * Network Kütüphaneleri ve Birbirlerine Göre Avantaj ve Dezavantajları
+      * Volley (Sadece Volley ile Network İşlemleri Yapılacak
+      * Retrofit
+      * OkHttp
+      * Android HttpURLConnection Sınıfı
+   * Volley
+      * Json Object Request
+      * Json Array Request
+      * Json String Request
+      * Param & Header Paslama
+      * Öncelik (Priority) Belirleme
+      * ParseNetwork
+      * Response Ayıklama İşlemleri
+      * GSON ve Jackson Kütüphaneleri (Otomatik Response Cast İşlemleri)
+      * ImageCache & NetworkImageView
+      * Network Katmanı Yazımı
+* Firebase Entegrasyonu
+   * Kayıt (Register) - Giriş (Login İşlemleri)
+   * Basit Chat Uygulaması (Ufak Wassappp'lar :)
 
 ### Android 401
 
-* [Güncellenecek](http://googlecom)
-
-
+* Yayın Dinleyiciler (Broadcast Receiver)
+   * Sms Dinleme ve Okuma
+   * Internet & Bluetooth & GPS Açık Kapalı Kontrolleri
+   * Özel (Custom) Broadcast Receiver Tanımlama ve Kullanma
+* Android Servisler
+   * Önyüzde (Foreground) Çalışan Servisler
+   * Arkayüzde (Background) Çalışan Servisler
+   * Bound Servisler
+* Android Sensörler
+* Sesden Yazıya Aktarma (Text to Speech) İşlemleri
+* Yazıdan Sese Aktarma (Speech to Text) İşlemleri
+* AsynTask Kullanımı ve Riskleri
+* Cursor Loader (Verileri Arka Planda Yükleme)
+* Doğru Context Kullanımı ve Bellek Sızıntısı (Memory Leak)
+* Tasarım Desenleri (Design Pattern)
+* Genel Türler (Generic Types)
+* Yansıtma (Reflection)
+* BuildType & ProductFlavors
+* Proguard RuleSet Tanımları
+* APK Küçültme Teknikleri
+* APK Oluşturma ve Yayınlama
+* Java Collection
+   * Set
+      * HashSet
+      * SortedSet
+      * TreeSet
+   * List
+      * ArrayList
+      * LinkedList
+   * Map
+      * HashMap
+      * SortedMap
+      * TreeMap
+* Test Driven Development Mantığı
+   * Espresso Aracının Kullanımı ve Test Case Yazma
+* Continues Integration - Continues Delivery Kavramları
+   * Jenkins Kurulumu
+   * HockeyApp Bağlantısı
+* Fabric
+* Google Analytics
+* DeepLink Kavramı ve Branch.IO
 
 ## Kullanılacak IDE'ler
 
