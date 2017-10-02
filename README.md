@@ -368,13 +368,9 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 ## Kaynaklar
 
-### Başlangıç Seviyesinde Materyaller
-
-* [Güncellenecek](http://googlecom)
-
 ### Demirbaş Referanslar
-
-* [Güncellenecek](http://googlecom)
+* [Developer.Android](https://developer.android.com/index.html)
+* [EveryProgrammerShouldKnow](https://github.com/mr-mig/every-programmer-should-know)
 
 ### Her Android Geliştiricinin Bilmesi Gereken Kütüphaneler
 
@@ -397,8 +393,17 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 * [Güncellenecek](http://googlecom)
 
 ### Mutlaka Okunması Gereken Kaynaklar
+* [Okumanız Gereken En Önemli Kitaplar Listesi](https://github.com/chhantyal/influential-cs-books)
 
-* [Güncellenecek](http://googlecom)
+### Code Pratiği Yapılabilecek Siteler
+* [HackerRank](https://www.hackerrank.com/)
+* [CodinGame](https://www.codingame.com/start)
+* [HackerEarth](https://www.hackerearth.com/)
+* [TopCoders](https://www.topcoder.com/)
+* [CodeWars](https://www.codewars.com/)
+* [Exercism](http://www.exercism.io/)
+* [CodeFights](https://codefights.com/)
+* [InterviewBit](https://www.interviewbit.com/)
 
 ### Bloglar
 
@@ -412,6 +417,9 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 
 * [Güncellenecek](http://googlecom)
 
+### Filmler ve Diziler
+
+* [Güncellenecek](http://googlecom)
 
 ### Eğitmen Hakkında
 
