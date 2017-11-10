@@ -99,7 +99,7 @@ Geliştirdiğiniz veya çözdüğünüz tüm Ev Ödevi ve Projeler için ReadMe 
 * Pull Request (PR) İnceleme ve Code Review İşlemleri
 * Pull Request İşlemleri - Değişen Dosyalar (File Changed), Yorum Yapma (Comment), Onaylama (Approve), Değişiklik Talebi (Request Changes)
 * Repo Ayarları
-* GitHub ile Entegre Çalışan Araçlar (Slack-OttoTree)
+* GitHub ile Entegre Çalışan Araçlar (Slack-OctoTree)
 * GitHub'ın Çok Bilinmeyen Yönleri
 
 ### Kotlin
